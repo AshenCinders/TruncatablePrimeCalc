@@ -31,7 +31,7 @@ defmodule Sequetial do
       iter_chain(tl(queue), result, stop_after)
     end
 
-    def left_truncatable_up_to(n) do
+    def list_up_to(n) do
       init_queue = [2, 3, 5, 7]
       iter_chain(init_queue, [], n)
     end
@@ -44,5 +44,6 @@ defmodule Sequetial do
   end
 end
 
-# Sequetial.LeftTrunc.left_truncatable_up_to(1000)
+# Example of left truncatable numbers.
+# Sequetial.LeftTrunc.list_up_to(1000)
 # |> IO.inspect(limit: :infinity)
