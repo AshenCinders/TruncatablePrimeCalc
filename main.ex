@@ -2,7 +2,7 @@ import(ElixirMath)
 
 defmodule LeftTrunc do
   @moduledoc """
-  Get a list of all left-truncatable prime number up to a given number n,
+  Get a list of all left-truncatable prime numbers up to a given number n,
   using function list_up_to(n).
   """
 
@@ -42,7 +42,7 @@ end
 
 defmodule RightTrunc do
   @moduledoc """
-  Get a list of all right-truncatable prime number up to a given number n,
+  Get a list of all right-truncatable prime numbers up to a given number n,
   using function list_up_to(n).
   """
 
