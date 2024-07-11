@@ -37,8 +37,7 @@ defmodule Sequetial do
     end
 
     def list_up_to(n) do
-      init_queue = [2, 3, 5, 7]
-      iter_chain(init_queue, [], n)
+      iter_chain([2, 3, 5, 7], [], n)
     end
   end
 
@@ -76,8 +75,7 @@ defmodule Sequetial do
     end
 
     def list_up_to(n) do
-      init_queue = [2, 3, 5, 7]
-      iter_chain(init_queue, [], n)
+      iter_chain([2, 3, 5, 7], [], n)
     end
   end
 end
