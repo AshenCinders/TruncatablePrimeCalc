@@ -2,6 +2,11 @@ import(ElixirMath)
 
 defmodule Sequetial do
   defmodule LeftTrunc do
+    @moduledoc """
+    Get a list of all left-truncatable prime number up to a given number n,
+    using function list_up_to(n).
+    """
+
     # Base case, finished.
     defp iter_chain(queue, result, stop_after) when hd(queue) > stop_after do
       Enum.sort(result)
@@ -38,6 +43,11 @@ defmodule Sequetial do
   end
 
   defmodule RightTrunc do
+    @moduledoc """
+    Get a list of all right-truncatable prime number up to a given number n,
+    using function list_up_to(n).
+    """
+
     # Base case, finished.
     defp iter_chain(queue, result, stop_after) when hd(queue) > stop_after do
       Enum.sort(result)
